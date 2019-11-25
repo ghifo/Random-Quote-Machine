@@ -10,6 +10,11 @@ const styles = {
 		alignItems: 'center',
 		display: 'flex',
 		height: '100vh',
+		backgroundImage:
+			"url('http://kristinsmedley.com/wp-content/uploads/2019/08/sunset-marthas-vineyard-memena-for-blog-e1566906628163-1484x1113.jpg')",
+		backgroundRepeat: 'no-repeat',
+		backgroundPosition: 'center center',
+		backgroundSize: 'cover',
 	},
 };
 
