@@ -7,7 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typeography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { encode } from 'punycode';
 const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => (
 	<Card>
 		<CardContent>
