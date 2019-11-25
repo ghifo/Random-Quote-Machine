@@ -22,6 +22,7 @@ const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => (
 			<IconButton
 				id='tweet-quote'
 				target='blank'
+				// encodedURI: used in the address bar to accept % and other simpoles
 				href={encodeURI(
 					`https://twitter.com/intent/tweet?text=${selectedQuote.quote}&hashtags=thewebdevcoach`,
 				)}
